@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+    height: 100%;
+    position: relative;
+    max-width: 100%;
+    font-size: 0.875rem;
+    background-color: aquamarine;
+}
+
+#main-wrapper {
+    opacity: 0;
+    transition: all 0.25s ease-in;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+}
