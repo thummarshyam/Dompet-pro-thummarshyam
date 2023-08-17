@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/de633f9e7f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <title>Dompet-pro</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
 </head>
+
 <body>
-    <section>
-        <div class="show menu-toggel" id="main-wrapper">
-           <div class="nav-header">
-            <a href=""></a>
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H80c-8.8 0-16-7.2-16-16s7.2-16 16-16H448c17.7 0 32-14.3 32-32s-14.3-32-32-32H64zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
-            <h2>Shyam</h2>
+
+    <!-- section-1 toggel -->
+
+    <div class="show menu-toggel" id="main-wrapper">
+        <div class="nav-header">
+            <a href="" class="brand-logo">
+                <svg class="logo-abbr" width="53" height="53" viewBox="0 0 53 53">
+                    <path
+                        d="M21.6348 8.04782C21.6348 5.1939 23.9566 2.87204 26.8105 2.87204H28.6018L28.0614 1.37003C27.7576 0.525342 26.9616 0 26.1132 0C25.8781 0 25.639 0.0403711 25.4052 0.125461L7.3052 6.7133C6.22916 7.105 5.67535 8.29574 6.06933 9.37096L7.02571 11.9814H21.6348V8.04782Z"
+                        fill="#759DD9" />
+                    <path
+                        d="M26.8105 5.97754C25.6671 5.97754 24.7402 6.90442 24.7402 8.04786V11.9815H42.8555V8.04786C42.8555 6.90442 41.9286 5.97754 40.7852 5.97754H26.8105Z"
+                        fill="#F8A961" />
+                    <path class="svg-logo-primary-path"
+                        d="M48.3418 41.8457H41.0957C36.8148 41.8457 33.332 38.3629 33.332 34.082C33.332 29.8011 36.8148 26.3184 41.0957 26.3184H48.3418V19.2275C48.3418 16.9408 46.4879 15.0869 44.2012 15.0869H4.14062C1.85386 15.0869 0 16.9408 0 19.2275V48.8594C0 51.1462 1.85386 53 4.14062 53H44.2012C46.4879 53 48.3418 51.1462 48.3418 48.8594V41.8457Z"
+                        fill="#5BCFC5" />
+                    <path class="svg-logo-primary-path"
+                        d="M51.4473 29.4238H41.0957C38.5272 29.4238 36.4375 31.5135 36.4375 34.082C36.4375 36.6506 38.5272 38.7402 41.0957 38.7402H51.4473C52.3034 38.7402 53 38.0437 53 37.1875V30.9766C53 30.1204 52.3034 29.4238 51.4473 29.4238ZM41.0957 35.6348C40.2382 35.6348 39.543 34.9396 39.543 34.082C39.543 33.2245 40.2382 32.5293 41.0957 32.5293C41.9532 32.5293 42.6484 33.2245 42.6484 34.082C42.6484 34.9396 41.9532 35.6348 41.0957 35.6348Z"
+                        fill="#5BCFC5" />
+                </svg>
+                <h2 class="brand-title">Shyam</h2>
+            </a>
             <div class="nav-control">
                 <div class="hamburger">
                     <span class="line"></span>
@@ -25,8 +46,57 @@
                     <span class="line"></span>
                 </div>
             </div>
-           </div>
         </div>
-    </section>
+    </div>
+
+    <!-- section-2 dlabnav -->
+    <div class="dlabnav">
+        <div class="dlabnav-scroll">
+            <ul class="metismenu">
+                <li class="dropdown header-profile">
+                    <a href="" class="nav-link">
+                        <img src="/assets/pic1.jpg" alt="">
+                        <div class="header-info ms-3">
+                            <span class="font-w600 ">Hi,<b>William</b></span>
+                            <small class="text-end font-w400">william@gmail.com</small>
+                        </div>
+                    </a>
+                </li>
+                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                        <i class="flaticon-025-dashboard"></i>
+                        <span class="nav-text">Dashboard</span>
+                    </a>
+                    <ul aria-expanded="false">
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index">Dashboard Light</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_2">Dashboard Dark</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_3">Dashboard 3<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_4">Dashboard 4<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_5">Dashboard 5<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_6">Dashboard 6<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_7">Dashboard 7<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/index_8">Dashboard 8<span class="badge badge-xs badge-danger ms-3">New</span></a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/my_wallet">My Wallet</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/page_invoices">Invoices</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/cards_center">Cards Center</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/page_transaction">Transaction</a></li>
+                        <li><a href="https://dompet.dexignlab.com/codeigniter/demo/transaction_details">Transaction Details</a></li>
+                    </ul>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
